@@ -1,4 +1,4 @@
-// Reverse a String
+//1. Reverse a String
 function reverseString(str) {
   let reverse = "";
   for (let i = str.length - 1; i >= 0; i--) {
@@ -7,7 +7,7 @@ function reverseString(str) {
   return reverse;
 }
 
-// Count Vowels in a String
+//2.Count Vowels in a String
 function countVowel(str) {
   let count = 0;
   const vowels = "aeiouAEIOU";
@@ -19,8 +19,7 @@ function countVowel(str) {
   return count;
 }
 
-// Check for Palindrome
-
+//3.Check for Palindrome
 function isPalindrome(str) {
   let reverse = "";
   for (let i = str.length - 1; i >= 0; i--) {
@@ -33,7 +32,7 @@ function isPalindrome(str) {
   }
 }
 
-// Find the Maximum Number
+//4.Find the Maximum Number
 function maximumNum(arr) {
   let max = arr[0];
   for (let i = 1; i < arr.length; i++) {
@@ -44,7 +43,7 @@ function maximumNum(arr) {
   return max;
 }
 
-// Remove Duplicates from an Array
+//5.Remove Duplicates from an Array
 function removeDuplicateNum(arr) {
   let unique = [];
   for (let i = 0; i < arr.length; i++) {
@@ -55,7 +54,7 @@ function removeDuplicateNum(arr) {
   return unique;
 }
 
-// Sum of All Numbers in an Array
+//6.Sum of All Numbers in an Array
 function sumArray(arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
@@ -64,7 +63,7 @@ function sumArray(arr) {
   return sum;
 }
 
-// Find Even Numbers in an Array
+//7.Find Even Numbers in an Array
 function findEvenNumbers(arr) {
   let evenNum = [];
   for (let i = 0; i < arr.length; i++) {
@@ -75,7 +74,7 @@ function findEvenNumbers(arr) {
   return evenNum;
 }
 
-// Capitalize First Letter of Each Word
+//8.Capitalize First Letter of Each Word
 function capitalWords(str) {
   let words = str.split(" ");
   for (let i = 0; i < words.length; i++) {
@@ -84,7 +83,7 @@ function capitalWords(str) {
   return words.join(" ");
 }
 
-// Find the Factorial of a Number
+//9.Find the Factorial of a Number
 function factorialNum(num) {
   let result = 1;
   for (let i = 1; i <= num; i++) {
@@ -93,7 +92,7 @@ function factorialNum(num) {
   return result;
 }
 
-// PingPong Challenge
+// 10.PingPong Challenge
 function pingPong() {
   for (let i = 1; i <= 20; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
